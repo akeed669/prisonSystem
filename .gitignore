@@ -13,12 +13,14 @@
 *.tar.gz
 *.rar
 
+/build
+
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-/build/
+build/
 !**/src/main/**/build/
 !**/src/test/**/build/
