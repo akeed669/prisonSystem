@@ -4,6 +4,9 @@
 # Log file
 *.log
 
+# production
+/build
+
 # Package Files #
 *.jar
 *.war
@@ -13,3 +16,12 @@
 *.tar.gz
 *.rar
 
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
